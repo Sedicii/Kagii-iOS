@@ -97,6 +97,8 @@ Kagii.userInterface.logInUser { kagiiResult in
 ```
 
 #### LogInUserError
+LogInUserError is the enumaration which is returned in case of failure in the `Kagii.userInterface.logInUser` call.
+
 ```swift
 public enum LogInUserError: Error {
     case error(Error)
@@ -105,6 +107,8 @@ public enum LogInUserError: Error {
 ```
 
 #### LogInUserResponse
+LogInUserResponse is the data structure which is returned in successfull cases in the `Kagii.userInterface.logInUser` call.
+
 ```swift
 public struct LogInUserData {
     public var id: String
