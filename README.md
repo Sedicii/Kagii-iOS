@@ -39,6 +39,7 @@ Or you can include it manually downloading [__the latest version__](https://gith
 This framework depends on the following frameworks:
 
 ```
+github "marmelroy/PhoneNumberKit"
 github "Sedicii/SediciiCoreSDK-iOS"
 github "Sedicii/SediciiZkpSDK-iOS"
 ```
