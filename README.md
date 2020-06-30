@@ -129,3 +129,11 @@ Defining the appearance. This is way to define your own appearance.
 ```swift
 Kagii.userInterface.appearance = ClientAppearance.appearance
 ```
+
+### Logging
+
+To get logs for this SDK you can set the `loggerLevel`:
+
+```swift
+Kagii.loggerLevel = .error // There are several levels to choose
+```
