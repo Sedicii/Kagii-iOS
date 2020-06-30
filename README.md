@@ -130,10 +130,20 @@ Defining the appearance. This is way to define your own appearance.
 Kagii.userInterface.appearance = ClientAppearance.appearance
 ```
 
+
 ### Logging
 
-To get logs for this SDK you can set the `loggerLevel`:
-
+Also, it is allowed the definition of the logging level as follows:
 ```swift
-Kagii.loggerLevel = .error // There are several levels to choose
+Kagii.loggerLevel = .none
+```
+
+where the logging levels are:
+```swift
+    case none
+    case error
+    case warning
+    case info
+    case debug
+    case trace
 ```
